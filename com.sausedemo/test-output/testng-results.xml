@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from the Application]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
+    <line>
+      <![CDATA[Application Opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Assertion Attempted]]>
+    </line>
+    <line>
+      <![CDATA[Product Located]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from the Application]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed]]>
+    </line>
     <line>
       <![CDATA[Application Opened]]>
     </line>
@@ -47,12 +77,36 @@
       <![CDATA[Application Closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-09T12:12:23 IST" name="Default suite" finished-at="2024-07-09T12:12:52 IST" duration-ms="28456">
+  <suite started-at="2024-07-09T14:09:23 IST" name="SuiteName" finished-at="2024-07-09T14:10:55 IST" duration-ms="92851">
     <groups>
     </groups>
-    <test started-at="2024-07-09T12:12:23 IST" name="Default test" finished-at="2024-07-09T12:12:52 IST" duration-ms="28456">
+    <test started-at="2024-07-09T14:09:23 IST" name="TestName" finished-at="2024-07-09T14:10:55 IST" duration-ms="92851">
+      <class name="TestCases.TC02_Search_Product">
+        <test-method signature="tc02()[pri:0, instance:TestCases.TC02_Search_Product@7b9a4292]" started-at="2024-07-09T14:10:06 IST" name="tc02" finished-at="2024-07-09T14:10:30 IST" duration-ms="24152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Assertion Attempted]]>
+            </line>
+            <line>
+              <![CDATA[Product Located]]>
+            </line>
+            <line>
+              <![CDATA[Logged out from the Application]]>
+            </line>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+      </class> <!-- TestCases.TC02_Search_Product -->
       <class name="TestCases.TC03_CheckOut">
-        <test-method signature="tc03Checkout()[pri:0, instance:TestCases.TC03_CheckOut@4d9e68d0]" started-at="2024-07-09T12:12:23 IST" name="tc03Checkout" finished-at="2024-07-09T12:12:52 IST" duration-ms="28398" status="PASS">
+        <test-method signature="tc03Checkout()[pri:0, instance:TestCases.TC03_CheckOut@4a94ee4]" started-at="2024-07-09T14:10:30 IST" name="tc03Checkout" finished-at="2024-07-09T14:10:55 IST" duration-ms="24953" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application Opened]]>
@@ -102,6 +156,24 @@
           </reporter-output>
         </test-method> <!-- tc03Checkout -->
       </class> <!-- TestCases.TC03_CheckOut -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestCases.TC01_Login">
+        <test-method signature="tc001()[pri:0, instance:TestCases.TC01_Login@47af7f3d]" started-at="2024-07-09T14:09:23 IST" name="tc001" finished-at="2024-07-09T14:10:06 IST" duration-ms="43662" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Logged out from the Application]]>
+            </line>
+            <line>
+              <![CDATA[Application Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+      </class> <!-- TestCases.TC01_Login -->
+    </test> <!-- TestName -->
+  </suite> <!-- SuiteName -->
 </testng-results>
